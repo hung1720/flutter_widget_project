@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widget_full/widget_screens/AboutListTile.dart';
+import 'package:flutter_widget_full/widget_screens/AlertDialog.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: MyApp1(),
+      home: MyApp2(),
     );
   }
 }

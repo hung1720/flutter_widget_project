@@ -22,7 +22,8 @@ class MyApp1 extends StatelessWidget {
             height: 200.0,
             child: ElevatedButton(
               // AbsorbPointer
-              style: ElevatedButton.styleFrom(primary: Colors.blue.shade200),
+              style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.blue.shade200),
               onPressed: () {},
               child: null,
             ),
